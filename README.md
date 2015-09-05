@@ -46,7 +46,7 @@ cd nwapp
 npm install
 ```
 
-### Install node_modules dependency for demo builder (optional if you don't have all modules for nw-builder yet)
+#### Install node_modules dependency for demo builder (optional if you don't have all modules for nw-builder yet)
 ```shell
 # goto root of demo
 npm install
@@ -58,8 +58,9 @@ npm install
 nwbuild -v 0.12.3 -p win64 ./nwapp
 ```
 
-#### Zip nwapp
+#### ZIP nwapp
 Make <b>nwapp.zip</b> for including all contents under build\nw-demo\win64\ 
+
 Copy <b>nwapp.zip</b> to folder nw-demo-web
 
 ### Running Demo nwapp
@@ -68,10 +69,11 @@ Run nwapp
 ```shell
 build\nw-demo\win64\nw-demo.exe
 ```
-No update, running version is latest version if it compare to latest.json in nw-demo-web
+No update will happen, the running version is latest version compare to latest.json in nw-demo-web
 
 ### Test Demo nwapp updater
 Change latest.json for testing purpose, no actual version upgrade in nwapp.zip :
+
 "version": "0.1.0" -> "version": "0.1.1"
 
 Then try to Run nwapp, nwapp updater is working now. Enjoy! :-)
