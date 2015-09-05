@@ -3,13 +3,13 @@
 - https://github.com/nwjs/nw-builder/tree/master/example/ 
 - https://github.com/edjafarov/node-webkit-updater/tree/master/app
 
-### nw-builder:
+#### nw-builder:
 https://github.com/nwjs/nw-builder
 
-### node-webkit-updater:
+#### node-webkit-updater:
 https://github.com/edjafarov/node-webkit-updater
 
-### Changes:
+## Changes:
 
 #### updater.js
 ```javascript
@@ -35,7 +35,7 @@ https://github.com/edjafarov/node-webkit-updater
     }	  
 ```
 
-### Build & Install
+## Build & Install
 
 #### Install nw-builder (run as Administrator in Windows Platform)
 ```shell
@@ -65,7 +65,7 @@ Make <b>nwapp.zip</b> for including all contents under build\nw-demo\win64\
 
 Copy <b>nwapp.zip</b> to folder nw-demo-web
 
-### Running Demo nwapp
+## Running Demo nwapp
 
 Copy folder nw-demo-web to web server (eg. Tomcat Webapp)
 
@@ -75,7 +75,7 @@ build\nw-demo\win64\nw-demo.exe
 ```
 No update will happen, the running version is latest version compare to latest.json in nw-demo-web
 
-### Test Demo nwapp updater
+## Test Demo nwapp updater
 
 Change latest.json for testing purpose, no actual version upgrade in nwapp.zip :
 
