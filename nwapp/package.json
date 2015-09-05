@@ -1,0 +1,31 @@
+{
+  "main": "index.html",
+  "name": "nw-demo",
+  "description": "demo app of node-webkit, to show how to use nwbuilder and nwupdater",
+  "version": "0.1.0",
+  "keywords": [ "demo", "node-webkit" ],
+  "window": {
+    "title": "node-webkit demo",
+    "icon": "link.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
+  },
+  "manifestUrl": "http://localhost:8080/nw-demo-web/latest.json",
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "ncp": "^0.5.1",
+    "request": "^2.36.0",
+    "del": "~0.1.2",
+    "semver": "^3.0.1",
+    "deck":"latest"
+  }
+}

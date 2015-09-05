@@ -1,0 +1,10 @@
+{
+  "name": "nw-demo",
+  "description": "demo app of node-webkit, to show how to use nw-builder and nw-updater",
+  "version": "0.1.0",
+  "packages": {
+          "win": {
+           "url": "http://localhost:8080/nw-demo-web/nwapp.zip"
+        }
+  }
+}
