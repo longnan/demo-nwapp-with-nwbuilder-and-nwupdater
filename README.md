@@ -81,4 +81,4 @@ Change latest.json for testing purpose, no actual version upgrade in nwapp.zip :
 
 "version": "0.1.0" -> "version": "0.1.1"
 
-Then try to Run nwapp, nwapp updater is working now. Enjoy! :-)
+Then try to Run nwapp, nwapp updater should be working now. Enjoy! :-)
