@@ -1,7 +1,7 @@
 # Demo-nwapp with nwbuilder and nwupdater
 > Node-Webkit Demo of how to use nw-builder and nw-updater, based on example from:
-https://github.com/nwjs/nw-builder/tree/master/example/
-https://github.com/edjafarov/node-webkit-updater/tree/master/app
+- https://github.com/nwjs/nw-builder/tree/master/example/ 
+- https://github.com/edjafarov/node-webkit-updater/tree/master/app
 
 ### nw-builder:
 https://github.com/nwjs/nw-builder
